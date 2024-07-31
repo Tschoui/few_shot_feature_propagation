@@ -4,3 +4,4 @@ __pycache__/
 /preprocessing/preprocessed_data/*.npy
 env/
 .venv/
+.idea/
