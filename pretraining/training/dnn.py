@@ -3,9 +3,9 @@ import torch.nn as nn
 
 def create_layer(in_size, out_size, activation_function=nn.ReLU, p=0.25):
     return nn.Sequential(
-        nn.Dropout(p=p)
+        nn.Dropout(p=p),
         nn.Linear(in_size, out_size),
-        activation_function(),
+        activation_function()
     )
 
 
